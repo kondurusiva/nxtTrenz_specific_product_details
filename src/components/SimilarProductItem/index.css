@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-right: 64px;
+}
+
+.product-image {
+  width: 200px;
+  border-radius: 8px;
+}
+
+.product-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 2px;
+}

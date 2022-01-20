@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.similar-products-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.product-image {
+  width: 95%;
+  height: 100%;
+  max-width: 540px;
+  max-height: 576px;
+  margin-right: 10px;
+  background-size: cover;
+}
+
+.item-details {
+  display: flex;
+}
+
+.rating-container {
+  background-color: #3b82f6;
+  align-items: center;
+  width: 50px;
+  color: #ffffff;
+  height: 30px;
+  padding: 1px;
+}
+
+.star-image {
+  width: 15px;
+}
+
+.detailed-view {
+  display: flex;
+  flex-direction: column;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+
+.minus {
+  border: none;
+  background-color: transparent;
+  margin-right: 2px;
+}
+
+.plus {
+  border: none;
+  background-color: transparent;
+  margin-left: 2px;
+}
+
+.final-view {
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+}
